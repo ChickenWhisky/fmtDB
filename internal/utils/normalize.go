@@ -1,7 +1,9 @@
 package utils
 
-import "strings"
+import "github.com/iancoleman/strcase"
+
 
 func NormalizeString(input string) string {
-    return strings.ReplaceAll(strings.ToLower(input), " ", "_")
+	
+   return strcase.ToCamel(input)
 }
