@@ -20,9 +20,10 @@ Instructions on how to use the project.
 To run the tool, use the following command:
 
 ```bash
-go run main.go <csv_file_name>
+go run main.go <csv_file_name> -o <output_file_name>
 ```
 
 Replace `<csv_file_name>` with the name of your CSV file.
-
+Replace `<output_file_name>` with the name of the output file.
+If `-o` flag isnt used then default output is output.csv
 
