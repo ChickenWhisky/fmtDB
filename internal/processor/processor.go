@@ -27,6 +27,9 @@ func ProcessCSVFiles(filePaths []string, outputPath string) error {
 			if len(record) == 0 {
 				continue // Skip empty rows
 			}
+			if record[3] ==""||record[3] ==" "{
+				continue
+			}
 
 			// Assume the column of interest is the "Company" column (index 3)
 			// Update this index if your column is different
