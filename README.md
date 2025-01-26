@@ -1,17 +1,17 @@
-# Project Name
+# FMT DB Company Insight Creator??
 
 ## Description
-A brief description of your project.
+The tool simply takes in a csv of fests and company data and converts into usable insights
 
 ## Installation
 Instructions on how to install the project.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/ChickenWhisky/fmtDB.git
 
 # Navigate to the project directory
-cd yourproject
+cd fmtDB
 ```
 
 ## Usage
@@ -25,6 +25,4 @@ go run main.go <csv_file_name>
 
 Replace `<csv_file_name>` with the name of your CSV file.
 
-## Contributing
-Guidelines for contributing to the project.
 
